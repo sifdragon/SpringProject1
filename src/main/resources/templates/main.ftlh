@@ -1,10 +1,13 @@
 <#import "parts/common.ftlh" as c>
 <#import "parts/login.ftlh" as l>
+<#import "spring.ftl" as spring />
 
 <@c.page>
+    <h1><@spring.message 'main.page.welcome'/></h1>
     <div>
         <@l.logout />
     </div>
+    <h1> </h1>
     <div>
         <form method="post" enctype="multipart/form-data">
             <input type="text" name="text" placeholder="Введите сообщение" />
