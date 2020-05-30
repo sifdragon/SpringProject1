@@ -1,6 +1,6 @@
 package itis.homework.demo.Config;
 
-import itis.homework.demo.Dto.Message;
+
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
